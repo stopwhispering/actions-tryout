@@ -1,4 +1,5 @@
 name: Pylint
+run-name: Run Pylint @${{ github.actor }}
 
 on: [push]
 
