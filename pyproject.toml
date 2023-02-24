@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "actions-tryout"
 version = "0.1.0"
-description = ""
+description = "desc"
 authors = ["Johannes <stopwhispering314@gmail.com>"]
 readme = "README.md"
-packages = [{include = "action"}]
+packages = [{include = "actions"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "*"
+fastapi = "^0.92.0"
 
 
 [tool.poetry.group.dev.dependencies]
